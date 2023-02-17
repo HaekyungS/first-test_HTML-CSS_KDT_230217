@@ -1,0 +1,161 @@
+  @media (min-width:1025px) and (max-width:1728px) {
+
+    body {
+      height: 1357px;
+      width: 1728px;
+    }
+
+    body>div>header {
+      height: 100px;
+    }
+
+    body>div>header>div:nth-child(1) {
+      bottom: 35px;
+      left: 38px;
+    }
+
+    body>div>header>div:nth-child(2) {
+      color: var(--color-blue);
+    }
+
+    body>div>nav {
+      height: 200px;
+      width: 100%;
+      top: 100px;
+      background-color: var(--footer-font-color);
+      color: #000000;
+      z-index: 3;
+    }
+
+    body>div>nav>div {
+      height: 15px;
+      position: absolute;
+      left: 60px;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    body>div>nav>div:hover {
+      line-height: 15px;
+      text-decoration: underline var(--color-blue);
+    }
+
+    body>div>nav>div:nth-child(1) {
+      width: 91px;
+      top: 40px;
+    }
+
+    body>div>nav>div:nth-child(2) {
+      width: 105px;
+      top: 61px;
+    }
+
+    body>div>nav>div:nth-child(3) {
+      width: 70px;
+      top: 82px;
+    }
+
+    body>div>nav>div:nth-child(4) {
+      width: 129px;
+      top: 103px;
+    }
+
+    body>div>nav>div:nth-child(5) {
+      width: 70px;
+      top: 124px;
+    }
+
+    body>div>nav>div:nth-child(6) {
+      width: 101px;
+      top: 145px;
+    }
+
+    body>div>div:nth-child(3)>div {
+      left: 38px;
+    }
+
+    body>div>div:nth-child(3)>div:nth-child(1) {
+      top: 324px;
+      z-index: 1;
+    }
+
+    body>div>div:nth-child(3)>div:nth-child(2) {
+      top: 403px;
+    }
+
+    body>div>div:nth-child(3)>div:nth-child(3) {
+      top: 482px;
+    }
+
+    body>div>div:nth-child(3)>div:nth-child(4) {
+      top: 562px;
+    }
+
+    body>div>div:nth-child(3)>div:nth-child(5) {
+      top: 642px;
+    }
+
+    body>div>div:nth-child(4) {
+      top: 824px;
+      left: 174px;
+    }
+
+    body>div>div:nth-child(5) {
+      top: 924px;
+      left: 60px;
+    }
+
+
+    body>div>div:nth-child(6) {
+      width: 1299px;
+      height: 857px;
+      position: absolute;
+      top: 300px;
+      left: 429px;
+    }
+
+    body>div>div:nth-child(6)>div {
+      right: 69px;
+    }
+
+    body>div>div:nth-child(6)>div:nth-child(1) {
+      top: 414px;
+    }
+
+    body>div>div:nth-child(6)>div:nth-child(2) {
+      top: 524px;
+    }
+
+    body>div>div:nth-child(6)>div:nth-child(3) {
+      top: 632px;
+    }
+
+    body>div>div:nth-child(6)>div:nth-child(4) {
+      width: 1125.41px;
+      top: 771px;
+    }
+
+    body>div>div:nth-child(6)>div:nth-child(5) {
+      top: 642px;
+      left: 368px;
+      display: none;
+    }
+/* 데스크탑일 경우에만 사라져서 배경에 숨겨버림. */
+    body>div>footer {
+      top: 1157px;
+    }
+
+    body>div>footer>div {
+      left: 38px;
+    }
+
+    body>div>footer>div:nth-child(1) {
+      width: 1626px;
+      top: 71px;
+    }
+
+    body>div>footer>div:nth-child(2) {
+      top: 83px;
+    }
+
+  }

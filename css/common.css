@@ -1,0 +1,214 @@
+:root {
+  --color-blue: #2196F3;
+  --color-white: #ffffff;
+  --line-color: #d9d9d9;
+  --footer-font-color: #f0f0f0;
+}
+/* 주된 색상들에 대해 변수선언을 하여 반영함. */
+
+body {
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 0;
+  position: absolute;
+  /* 기기별 body 사이즈에 100%를 적용을 위해 body에도 absolute를 적용함. -> 적용하지않았을 때는 100%를 해도 body사이즈의 100%로 적용되지않음. */
+}
+
+body>div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+body>div>header {
+  width: 100%;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  z-index: 3;
+}
+
+body>div>header>div:nth-child(1) {
+  position: absolute;
+  font-weight: 900;
+}
+
+body>div>header>div:nth-child(1):hover {
+  vertical-align: top var(--color-blue);
+  line-height: 15px;
+}
+
+body>div>nav {
+  position: absolute;
+}
+
+body>div>div {
+  position: absolute;
+}
+
+body>div>div:nth-child(3) {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+/* 다른 형제들을 앞으로 보내주기위해 z-index를 사용하였음. */
+body>div>div:nth-child(3)>div {
+  position: absolute;
+  left: 23px;
+  font-weight: 700;
+  font-size: 96px;
+}
+
+body>div>div:nth-child(3)>div:hover {
+  vertical-align: top var(--color-blue);
+  line-height: 100%;
+}
+/* 아래와 같이 겹치는 부분을 대비해 z-index로 순서를 주었음. */
+body>div>div:nth-child(3)>div:nth-child(1) {
+  z-index: 1;
+}
+
+body>div>div:nth-child(3)>div:nth-child(2) {
+  color: var(--color-blue);
+  z-index: 2;
+}
+
+body>div>div:nth-child(3)>div:nth-child(3) {
+  color: var(--color-blue);
+  z-index: 3;
+}
+
+body>div>div:nth-child(3)>div:nth-child(4) {
+  color: var(--color-blue);
+  z-index: 4;
+}
+
+body>div>div:nth-child(3)>div:nth-child(5) {
+  z-index: 5;
+}
+
+body>div>div:nth-child(4) {
+  top: 750px;
+  left: 208px;
+  color: var(--color-blue);
+  transform: rotate(90deg);
+  z-index: 3;
+}
+
+body>div>div:nth-child(5) {
+  width: 285px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  color: var(--color-blue);
+  z-index: 3;
+}
+
+body>div>div:nth-child(5) {
+  width: 285px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  color: var(--color-blue);
+  z-index: 3;
+}
+
+body>div>div:nth-child(6) {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  z-index: 3;
+}
+
+body>div>div:nth-child(6)>div {
+  height: 130px;
+  position: absolute;
+  font-family: 'karantina';
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 130px;
+}
+
+body>div>div:nth-child(6)>div:nth-child(1) {
+  width: 191px;
+  z-index: 3;
+}
+
+body>div>div:nth-child(6)>div:nth-child(1):hover {
+  vertical-align: top var(--color-blue);
+}
+
+body>div>div:nth-child(6)>div:nth-child(2) {
+  width: 225px;
+  z-index: 2;
+}
+
+body>div>div:nth-child(6)>div:nth-child(3) {
+  width: 286px;
+  z-index: 1;
+}
+
+body>div>div:nth-child(6)>div:nth-child(4) {
+  height: 4px;
+  background-color: #ffffff;
+}
+
+body>div>div:nth-child(6)>div:nth-child(5) {
+  width: 35px;
+  height: 61px;
+}
+
+body>div>footer {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  background-color: #333333;
+  z-index: 3;
+}
+
+body>div>footer>div {
+  position: absolute;
+}
+
+body>div>footer>div:nth-child(1) {
+  height: 2px;
+  background-color: var(--line-color);
+}
+
+body>div>footer>div:nth-child(2) {
+  width: 100%;
+}
+
+body>div>footer>div:nth-child(2)>div {
+  height: 10px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 8px;
+  color: var(--footer-font-color);
+}
+body>div>footer>div:nth-child(2)>div:hover {
+  vertical-align: top var(--color-blue);
+  line-height: 10px;
+}
+/* 각 크기별 반복을 줄이기 위해 기준을 '대표자'로 잡아 모두 같은 간격임. */
+body>div>footer>div:nth-child(2)>div:nth-child(2) {
+  top: 12px;
+}
+
+body>div>footer>div:nth-child(2)>div:nth-child(3) {
+  top: 14px;
+}
+
+body>div>footer>div:nth-child(2)>div:nth-child(4) {
+  top: 16px;
+}

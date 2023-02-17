@@ -1,0 +1,153 @@
+@media (min-width:431px) and (max-width:1024px) {
+  body {
+    height: 2732px;
+    width: 1024px;
+  }
+
+  body>div>header {
+    height: 100px;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  body>div>header>div:nth-child(1) {
+    bottom: 19px;
+  }
+
+  body>div>header>div:nth-child(2) {
+    position: absolute;
+    right: 18px;
+    bottom: 27px;
+  }
+
+  body>div>nav {
+    height: 200px;
+    width: 100%;
+    top: 100px;
+    background-color: var(--footer-font-color);
+    z-index: 3;
+  }
+
+  body>div>nav>div {
+    height: 15px;
+    position: absolute;
+    left: 60px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  body>div>nav>div:hover {
+    line-height: 15px;
+    text-decoration: underline var(--color-blue);
+  }
+
+  body>div>nav>div:nth-child(1) {
+    width: 91px;
+    top: 40px;
+  }
+  body>div>nav>div:nth-child(2) {
+    width: 105px;
+    top: 61px;
+  }
+  body>div>nav>div:nth-child(3) {
+    width: 70px;
+    top: 82px;
+  }
+  body>div>nav>div:nth-child(4) {
+    width: 129px;
+    top: 103px;
+  }
+  body>div>nav>div:nth-child(5) {
+    width: 70px;
+    top: 124px;
+  }
+  body>div>nav>div:nth-child(6) {
+    width: 101px;
+    top: 145px;
+  }
+
+  body>div>div:nth-child(3)>div {
+    left: 60px;
+  }
+
+  body>div>div:nth-child(3)>div:nth-child(1) {
+    top: 386px;
+  }
+
+  body>div>div:nth-child(3)>div:nth-child(2) {
+    top: 465px;
+  }
+
+  body>div>div:nth-child(3)>div:nth-child(3) {
+    top: 544px;
+  }
+
+  body>div>div:nth-child(3)>div:nth-child(4) {
+    top: 624px;
+  }
+
+  body>div>div:nth-child(3)>div:nth-child(5) {
+    top: 704px;
+  }
+
+  body>div>div:nth-child(4) {
+    top: 886px;
+    left: 210px;
+  }
+
+  body>div>div:nth-child(5) {
+    top: 924px;
+    left: 60px;
+  }
+
+
+  body>div>div:nth-child(6) {
+    width: 1024px;
+    height: 1368px;
+    top: 1164px;
+  }
+
+  body>div>div:nth-child(6)>div {
+    left: 60px;
+  }
+
+  body>div>div:nth-child(6)>div:nth-child(1) {
+    top: 507px;
+  }
+
+  body>div>div:nth-child(6)>div:nth-child(2) {
+    top: 620px;
+  }
+
+  body>div>div:nth-child(6)>div:nth-child(3) {
+    top: 731px;
+  }
+  
+  body>div>div:nth-child(6)>div:nth-child(4) {
+    width: 890px;
+    top: 870px;
+  }
+
+  body>div>div:nth-child(6)>div:nth-child(5) {
+    top: 642px;
+    left: 368px;
+  }
+
+  body>div>footer {
+    top: 2532px;
+  }
+
+  body>div>footer>div {
+    left: 66px;
+  }
+
+  body>div>footer>div:nth-child(1) {
+    width: 890px;
+    top: 85px;
+  }
+
+  body>div>footer>div:nth-child(2) {
+    top: 97px;
+  }
+
+}

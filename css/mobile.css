@@ -1,0 +1,115 @@
+@media screen and (max-width:430px) {
+
+  body {
+    width: 430px;
+    height: 1864px;
+  }
+
+  body>div>header {
+    height: 110px;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  body>div>header>div:nth-child(1) {
+    bottom: 27px;
+  }
+
+  body>div>header>div:nth-child(2) {
+    position: absolute;
+    right: 18px;
+    bottom: 27px;
+  }
+
+  body>div>nav{
+    z-index: 1;
+  }
+
+  /* 모바일만 안보이길래 z-index로 뒤로 숨겨둠
+  nav를 숨기기 위해 두번째 div를 100%사이즈로 조정 및 나머지 항목들을 z-index를 통해 가장 상위로 노출되게 설정. */
+
+
+  body>div>div:nth-child(3)>div {
+    left: 23px;
+  }
+
+  body>div>div:nth-child(3)>div:nth-child(1) {
+    top: 329px;
+  }
+
+  body>div>div:nth-child(3)>div:nth-child(2) {
+    top: 382px;
+  }
+
+  body>div>div:nth-child(3)>div:nth-child(3) {
+    top: 435px;
+  }
+
+  body>div>div:nth-child(3)>div:nth-child(4) {
+    top: 488px;
+  }
+
+  body>div>div:nth-child(3)>div:nth-child(5) {
+    top: 541px;
+  }
+
+  body>div>div:nth-child(4) {
+    top: 750px;
+    left: 208px;
+  }
+
+  body>div>div:nth-child(5) {
+    top: 817px;
+    left: 73px;
+  }
+
+  body>div>div:nth-child(6) {
+    width: 430px;
+    height: 732px;
+    top: 932px;
+  }
+
+  body>div>div:nth-child(6)>div {
+    left: 19px;
+  }
+
+  body>div>div:nth-child(6)>div:nth-child(1) {
+    top: 231px;
+  }
+
+  body>div>div:nth-child(6)>div:nth-child(2) {
+    top: 344px;
+  }
+
+  body>div>div:nth-child(6)>div:nth-child(3) {
+    top: 455px;
+  }
+
+  body>div>div:nth-child(6)>div:nth-child(4) {
+    width: 280px;
+    top: 581px;
+  }
+
+  body>div>div:nth-child(6)>div:nth-child(5) {
+    top: 366px;
+    left: 327px;
+  }
+
+  body>div>footer {
+    top: 1664px;
+  }
+
+  body>div>footer>div {
+    left: 43px;
+  }
+
+  body>div>footer>div:nth-child(1) {
+    width: 345px;
+    top: 82px;
+  }
+
+  body>div>footer>div:nth-child(2) {
+    top: 94px;
+  }
+
+}
